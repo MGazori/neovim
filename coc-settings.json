@@ -1,0 +1,14 @@
+{
+	"php-cs-fixer.activateTool": "php-cs-fixer",
+	"coc.preferences.formatOnSaveFiletypes": [
+		"php"
+	],
+	"snippets.ultisnips.pythonPrompt": false,
+    "indentSize": 4,
+	"wrapAttributes": "auto",
+    "wrapLineLength": 120,
+    "endWithNewLine": true,
+    "useTabs": false,
+	"blade.enable": true,
+	"blade.completion.enable": true
+}
