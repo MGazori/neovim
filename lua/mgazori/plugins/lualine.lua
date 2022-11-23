@@ -28,9 +28,23 @@ lualine_nightfly.command = {
   },
 }
 
+local function os_icon()
+    local icons = {
+      unix = '', -- e712
+      dos = '', -- e70f
+      mac = '' -- e711
+    }
+    if vim.fn.has('mac') == 1 then return icons.mac
+    elseif vim.fn.has('win32') == 1 then return icons.dos
+    else return icons.unix end
+end
+
 -- configure lualine with modified theme
 lualine.setup({
-  options = {
-    theme = lualine_nightfly,
-  },
+	options = {
+		theme = lualine_nightfly,
+	},
+	sections = {
+		lualine_x = {'encoding', os_icon, 'filetype'} --original: lualine_x = {'encoding', 'fileformat', 'filetype'},
+	},
 })
