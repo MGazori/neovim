@@ -9,6 +9,8 @@
 >
 > Config files fully created with lua!
 
+### Rest in peace, dear [Bram Moonlenaar](https://vimhelp.org/version9.txt.html#Bram-Moolenaar); we will never forget you…
+
 ## Requirements Packages:
 - Install [Neovim](https://neovim.io/)
 - Install [NodeJS (with npm)](https://nodejs.org/en/)
