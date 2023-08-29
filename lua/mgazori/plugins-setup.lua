@@ -74,6 +74,8 @@ return packer.startup(function(use)
 	})
 	use 'windwp/nvim-autopairs' -- auto syntax pairs
 
+	use { "catppuccin/nvim", as = "catppuccin" }
+
 
 	-- Automatically set up your configuration after cloning packer.nvim
 	if packer_bootstrap then
