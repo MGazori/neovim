@@ -63,6 +63,9 @@ return packer.startup(function(use)
 	use({ "neoclide/coc.nvim", branch = "release"}) -- need nodejs and npm
 	-- use 'rafamadriz/friendly-snippets'
 	
+	-- nvim transparent
+	use 'xiyaowong/transparent.nvim'
+
 	use 'lewis6991/gitsigns.nvim' -- git integrations
 	 
 	use({ -- better syntax highlightter
