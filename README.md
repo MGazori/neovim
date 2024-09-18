@@ -76,6 +76,9 @@ brew install --cask iterm2
     #### coc packages
     ##### You should install these yourself with command: CocInstall "package-name"
     > example :CocInstall coc-html
+    ```bash
+    CocInstall coc-html coc-json coc-emmet coc-php-cs-fixer coc-blade @yaegassy/coc-intelephense
+    ```
     - [coc-html](https://github.com/neoclide/coc-html)
     
     - [coc-json](https://github.com/neoclide/coc-json)
